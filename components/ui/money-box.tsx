@@ -2,6 +2,8 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import { Copy } from 'lucide-react';
+import { toast } from 'sonner';
 
 interface MoneyBoxProps {
   name: string;
@@ -14,6 +16,15 @@ interface MoneyBoxProps {
 
 const MoneyBoxCard: React.FC<MoneyBoxProps> = ({ name, bankName, accountNumber, image, hoverImage, momo }) => {
   const [isHovered, setIsHovered] = useState(false);
+
+  const handleCopy = async (text: string) => {
+    try {
+      await navigator.clipboard.writeText(text);
+      toast.success('Đã sao chép số tài khoản');
+    } catch (err) {
+      toast.error('Không thể sao chép số tài khoản');
+    }
+  };
 
   return (
     <div className="money-box-card">
@@ -43,8 +54,22 @@ const MoneyBoxCard: React.FC<MoneyBoxProps> = ({ name, bankName, accountNumber, 
       <div className="money-box-info">
         <p>{bankName}</p>
         <p>{name}</p>
-        <p>{accountNumber}</p>
-        {momo && <p>Momo: {momo}</p>}
+        <div 
+          className="flex items-center justify-center gap-2 cursor-pointer hover:opacity-70"
+          onClick={() => handleCopy(accountNumber)}
+        >
+          <p>{accountNumber}</p>
+          <Copy className="h-4 w-4" />
+        </div>
+        {momo && (
+          <div 
+            className="flex items-center justify-center gap-2 cursor-pointer hover:opacity-70"
+            onClick={() => handleCopy(momo)}
+          >
+            <p>Momo: {momo}</p>
+            <Copy className="h-4 w-4" />
+          </div>
+        )}
       </div>
     </div>
   );

@@ -134,12 +134,17 @@ html, body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 500px;
 }
 
 .banner-text {
   position: relative;
   z-index: 2;
   padding: 0 20px;
+}
+
+.banner-text h1 {
+  margin-top: 20px;
 }
 
 h1 {
@@ -188,6 +193,13 @@ h6 {
   height: 50px;
   background-color: rgb(176, 146, 89);
   margin: 20px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .banner-svg {
+    width: 300px;
+    height: 500px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -907,6 +919,7 @@ h6 {
 @media (max-width: 768px) {
   .money-box-grid {
     gap: 1rem;
+    grid-template-columns: 1fr;
   }
 
   .money-box-card {

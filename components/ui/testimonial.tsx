@@ -22,22 +22,22 @@ const testimonials: TestimonialItem[] = [
   {
     id: 2,
     image: '/images/testimonial-1.webp',
-    content: 'Một đám cưới đáng nhớ với những khoảnh khắc tuyệt vời. Cảm ơn đã cho chúng mình được là một phần trong ngày vui của các bạn.',
+    content: 'Chúng mình tình cờ gặp nhau khi làm việc tại hòn đảo xinh đẹp Cát Bà.',
   },
   {
     id: 3,
     image: '/images/testimonial-1.webp',
-    content: 'Chúc mừng hai bạn! Đám cưới được tổ chức rất chu đáo và ấm cúng. Chúc hai bạn trăm năm hạnh phúc!',
+    content: 'Chúng mình tình cờ gặp nhau khi làm việc tại hòn đảo xinh đẹp Cát Bà.',
   },
   {
     id: 4,
     image: '/images/testimonial-1.webp',
-    content: 'Chúc mừng hai bạn! Đám cưới được tổ chức rất chu đáo và ấm cúng. Chúc hai bạn trăm năm hạnh phúc!',
+    content: 'Chúng mình tình cờ gặp nhau khi làm việc tại hòn đảo xinh đẹp Cát Bà.',
   },
   {
     id: 5,
     image: '/images/testimonial-1.webp',
-    content: 'Chúc mừng hai bạn! Đám cưới được tổ chức rất chu đáo và ấm cúng. Chúc hai bạn trăm năm hạnh phúc!',
+    content: 'Chúng mình tình cờ gặp nhau khi làm việc tại hòn đảo xinh đẹp Cát Bà.',
   }
 ];
 
@@ -49,7 +49,7 @@ export const Testimonial = () => {
         spaceBetween={10}
         slidesPerView={1.5}
         pagination={{ clickable: true }}
-        autoplay={false}
+        autoplay={true}
         loop={true}
         centeredSlides={true}
         breakpoints={{
