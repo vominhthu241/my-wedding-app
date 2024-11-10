@@ -21,7 +21,8 @@ const MoneyBoxCard: React.FC<MoneyBoxProps> = ({ name, bankName, accountNumber, 
     try {
       await navigator.clipboard.writeText(text);
       toast.success('Đã sao chép số tài khoản');
-    } catch (err) {
+    } catch (error) {
+      console.log(error);
       toast.error('Không thể sao chép số tài khoản');
     }
   };
