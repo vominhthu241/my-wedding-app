@@ -124,7 +124,7 @@ export const BrideParty = () => {
                     }}
                 >
                     <Image 
-                    src="/images/event-1.jpeg"
+                    src="/images/event-2.webp"
                     alt="Groom"
                     width={800}
                     height={1200}

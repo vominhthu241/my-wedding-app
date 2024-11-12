@@ -3,7 +3,6 @@ import Banner from '../components/ui/banner';
 import OurStory from '../components/ui/our-story';
 import GroomParty from '../components/ui/groom-party';
 import { BrideParty } from '@/components/ui/bride-party';
-import { Testimonial } from '@/components/ui/testimonial';
 import { Gallery } from '@/components/ui/gallery';
 import { MoneyBox } from '@/components/ui/money-box';
 
@@ -15,9 +14,6 @@ export default function Home() {
       </section>
       <section className="page-section" id="our-story">
         <OurStory />
-      </section>
-      <section className="page-section" id="testimonial">
-        <Testimonial />
       </section>
       <section className="page-section" id="bride-party">
         <BrideParty />

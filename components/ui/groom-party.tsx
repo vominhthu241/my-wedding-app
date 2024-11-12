@@ -67,7 +67,7 @@ const GroomParty: React.FC = () => {
                 }}
                 >
                     <Image 
-                    src="/images/event-2.jpeg"
+                    src="/images/event-1.webp"
                     alt="Groom"
                     width={600}
                     height={800}

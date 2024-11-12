@@ -28,7 +28,7 @@ const MoneyBoxCard: React.FC<MoneyBoxProps> = ({ name, bankName, accountNumber, 
   };
 
   return (
-    <div className="money-box-card">
+    <div className="money-box-card relative">
       <div 
         className="money-box-image"
         onMouseEnter={() => setIsHovered(true)}
@@ -84,21 +84,30 @@ export const MoneyBox = () => {
       <p className="subtitle">
         Nếu có thể, bạn hãy tới tham dự Đám cưới, chung vui và Mừng cưới trực tiếp cho chúng mình nha ^^. Cảm ơn bạn rất nhiều!
       </p>
+      <div className="w-16 h-16 lucky-bag">
+        <Image
+          src="/images/lucky-bag.png"
+          alt="Lucky bag"
+          width={64}
+          height={64}
+          className="w-full h-full object-contain animate-bounce"
+        />
+      </div>
       <div className="money-box-grid">
         <MoneyBoxCard
           name="Võ Ngọc Minh Thông"
           bankName="TP Bank"
           accountNumber="0001543552"
-          image="/images/our-story-1.webp"
-          hoverImage="/images/QR.webp"
+          image="/images/gold-coin-icon.png"
+          hoverImage="/images/QR-1.jpg"
         />
         <MoneyBoxCard
           name="Phạm Thuỳ Dung"
           bankName="TP Bank"
           accountNumber="30328987696"
           momo="meoconlonton"
-          image="/images/our-story-2.webp"
-          hoverImage="/images/QR.webp"
+          image="/images/gold-coin-icon.png"
+          hoverImage="/images/QR-2.jpg"
         />
       </div>
     </div>
