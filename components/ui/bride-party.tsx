@@ -101,7 +101,7 @@ export const BrideParty = () => {
                 <div className="map-modal-content">
                     <button className="close-modal" onClick={() => setShowMapNhaGai(false)}>×</button>
                     <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.279054117643!2d108.20932287583118!3d16.051002639924217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219b85cefa3f5%3A0xf3ebcf4b0fde40a8!2zVHJ1bmcgdMOibSBI4buZaSBuZ2jhu4smVGnhu4djIGPGsOG7m2kgTWluaCBDaMOidSBWaeG7h3Q!5e0!3m2!1svi!2s!4v1687706542355!5m2!1svi!2s"
+                    src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3733.2095117174435!2d106.1308780752466!3d20.66105358089791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDM5JzM5LjgiTiAxMDbCsDA4JzAwLjQiRQ!5e0!3m2!1svi!2s!4v1731508203247!5m2!1svi!2s"
                     width="100%"
                     height="450"
                     style={{ border: 0 }}

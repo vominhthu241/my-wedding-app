@@ -8,7 +8,7 @@ import "yet-another-react-lightbox/styles.css";
 import { getGalleryImages } from '@/lib/utils';
 import { LazyImage } from './lazy-image';
 
-const galleryImages = getGalleryImages(20); // Chỉ lấy 3 ảnh cho trang chủ
+const galleryImages = getGalleryImages(15); // Chỉ lấy 3 ảnh cho trang chủ
 
 export const Gallery = () => {
   const [isOpen, setIsOpen] = useState(false);
