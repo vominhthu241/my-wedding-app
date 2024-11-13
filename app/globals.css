@@ -131,8 +131,8 @@ html, body {
 .banner-image img {
   object-fit: cover;
   transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
+  left: 50% !important;
+  top: 50% !important;
   right: unset;
   bottom: unset;
 }
