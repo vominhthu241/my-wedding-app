@@ -1,0 +1,9 @@
+{
+  "name": "Thông and Dung's Wedding",
+  "short_name": "TD Wedding",
+  "description": "Thông and Dung's Wedding Invitation",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#B0925A"
+} 

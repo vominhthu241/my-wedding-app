@@ -18,7 +18,27 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Thông và Dung's Wedding",
-  description: "Thông và Dung's Wedding Invitation App",
+  description: "Thông và Dung's Wedding Invitation",
+  openGraph: {
+    title: "Thông and Dung's Wedding",
+    description: "Thông and Dung's Wedding Invitation",
+    url: 'https://thong-and-dung-wedding.info/',
+    siteName: "Thông and Dung's Wedding",
+    images: [
+      {
+        url: '/images/og-image.jpg',
+        width: 1200,
+        height: 630,
+        alt: "Thông and Dung's Wedding",
+      },
+    ],
+    locale: 'vi_VN',
+    type: 'website',
+  },
+  icons: {
+    icon: '/favicon.ico',
+  },
+  manifest: '/site.webmanifest',
 };
 
 export default function RootLayout({
