@@ -14,7 +14,7 @@ const Banner: React.FC = () => {
     <>
       <h6>Cùng với gia đình</h6>
       <h1>Thông & Dung</h1>
-      <h6>thân mời bạn đến dự lễ cưới của chúng tớ</h6>
+      <h6>thân mời bạn đến dự lễ cưới của chúng mình</h6>
       <div className='line'></div>
     </>
   ) : (
