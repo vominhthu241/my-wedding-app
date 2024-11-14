@@ -105,7 +105,6 @@ export const MoneyBox = () => {
           name="Phạm Thuỳ Dung"
           bankName="TP Bank"
           accountNumber="30328987696"
-          momo="meoconlonton"
           image="/images/gold-coin-icon.png"
           hoverImage="/images/QR-2.jpg"
         />
