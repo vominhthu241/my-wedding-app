@@ -97,7 +97,7 @@ export const MoneyBox = () => {
         <MoneyBoxCard
           name="Võ Ngọc Minh Thông"
           bankName="TP Bank"
-          accountNumber="0001543552"
+          accountNumber="00001543552"
           image="/images/gold-coin-icon.png"
           hoverImage="/images/QR-1.jpg"
         />
